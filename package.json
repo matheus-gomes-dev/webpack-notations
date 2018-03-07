@@ -1,0 +1,24 @@
+{
+  "name": "webpack-notations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors --inline --hot" //com essa instrução, o comando 'npm run dev' passa a funcionar
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheus-lima92/webpack-notations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheus-lima92/webpack-notations/issues"
+  },
+  "homepage": "https://github.com/matheus-lima92/webpack-notations#readme",
+  "devDependencies": {
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
