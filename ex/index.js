@@ -23,3 +23,8 @@ console.log(produto, novoProduto)
 import 'react'
 console.log("React ok");
 export default props => (<h1>Olá</h1>)
+
+
+/* --- testing css extension import --- */
+import './style.css'
+
