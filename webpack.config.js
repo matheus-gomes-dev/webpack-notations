@@ -16,7 +16,7 @@ module.exports = {
 			loader: 'babel-loader',
 			exclude: /node_modules/, //não processará arquivos dentro dessa pasta
 			query: {
-				presets: ['es2015'], //define o que o loader aplicará como preset (tradução)
+				presets: ['es2015', 'react'], //define o que o loader aplicará como preset (tradução). Presets do babel devem ser instalados via npm
 				plugins: ['transform-object-rest-spread']
 			}
 		}]
